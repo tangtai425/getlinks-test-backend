@@ -1,0 +1,22 @@
+{
+  "name": "getlinks-test-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "git@github.com:tangtai425/getlinks-test-backend.git",
+  "author": "Korrakhod <mirable.tang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test:unit": "NODE_ENV=test mocha --require 'test/setup.js' 'test/**/*.unit.test.js' --exit"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "dotenv": "4.0.0",
+    "lodash.find": "^4.6.0",
+    "restify": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "4.0.1",
+    "sinon": "4.0.2"
+  }
+}
