@@ -6,7 +6,7 @@ const {
   updateUser,
   deleteUser,
   userLogin,
-} = require('./controllers/userControllers')
+} = require('./controllers/userController')
 
 const routes = (server) => {
   server.get('/users', getAllUsers)
